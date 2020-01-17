@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>home</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="xuli.js"></script>
+    <link rel="stylesheet" type="text/css" href="layout.css">
+</head>
+<body>
+	<div id="wrapper">
+    <div id="loginform">
+    	<h4>Whats your name?</h4>
+    	<input type="text" name="" id="txtname">
+    	<input type="button" name="" value="register" id="btnregister">	
+    </div>
+    <div id="chatform">
+    	<div id="left">
+    		<div id="boxtitle">Users online</div>
+    		<div id="boxcontent">...</div>
+    	</div>
+    	<div id="right">
+    		<div id="sayhi">hello <span id="currentuser"></span>
+    		   <input type="button" name="" value="Log out">
+    	  </div>
+        
+    		<div id="listmessages"></div>
+    		<input type="text" name="" id="txtmessage">
+    		<input type="button" name="" id="sendmessage" value="Send">
+    	</div>
+    </div>
+</div>
+</body>
+</html>

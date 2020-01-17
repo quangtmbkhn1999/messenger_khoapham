@@ -1,0 +1,29 @@
+#left,#right:{min-height: 300px}
+#left{
+	width: 30%;
+	float: left;
+}
+#right{
+	width: 70%;
+	float: right;
+}
+ #boxtitle{
+ 	border: solid 1px black;
+ 	padding: 5px;
+ 	text-align: center;
+ 	font-weight: bold;
+ }
+ #boxcontent{
+ 	border: solid 1px black;
+ 	border-top: none;
+    text-align: center;
+ }
+
+ #sayhi{
+ 	text-align: right;
+ }
+
+ #listmessages{
+ 	background-color: 	#FFF8DC;
+ 	height: 200px;
+ }
